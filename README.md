@@ -1,12 +1,18 @@
-# React + Vite
+<h1>Hey there</h1>
+<p>So i m kinda new to git hub and don't really know how to make an good README ,
+but beside that i ll try in future to make my readme more understandable </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>HOW MY CODE WORKS</h1>
+<p>
+  in my react app i've made 3 state one for changing the ui state to make sure the answer is visible with the help of this state once i click on the question a small pop up comes which shows it's answer .
 
-Currently, two official plugins are available:
+  and then
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+THE OTHER state
+mlt => multiple clicks so this state i made to store data(id of data) in array format to  make sure that 
+i can use it to hide and show my answer when clicked twice on a question 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+THE THIRD state
+this state was just used to make sure that multiple click means unlike first state which only shows one answer and if clicked another question it shows that question answer but not previous 
+so to overcome this this state help recognize that is the multiclick function is enabled or not 
+</p>
